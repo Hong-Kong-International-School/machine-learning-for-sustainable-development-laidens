@@ -1,4 +1,17 @@
-### Underwater Trash Detection Model
+# Underwater Trash Detection Model
+
+System Details:
+    This model will be able to accurately detect trash in an underwater environment. This kind of model would be used in ocean trash collection robots that     autonomously pick up trash and remove it from the water. 
+    
+    How to Install: blahblahblah placeholder
+    How to Use: placeholder
+    
+ Model Details:
+    Data sources used for training: https://www.kaggle.com/datasets/sovitrath/underwater-trash-detection-icra
+    Model performance analysis: placeholder
+    
+ Development overview:
+    
 
 
 ##  Logs
@@ -16,3 +29,6 @@
 - Fixed Tensorflow issue
 - Made commit comments clearer (lol)
 - Started creating a model. I started the project on kaggle for now because I am still having some issues with downloading packages on my macbook. Will transfer onto github soon
+
+05/05/23
+- Updated README
