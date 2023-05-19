@@ -1,4 +1,4 @@
-# Underwater Trash Detection Model
+#Trash Detection Model
 
 System Details:
     This model will be able to accurately detect trash in an underwater environment. This kind of model would be used in ocean trash collection robots that     autonomously pick up trash and remove it from the water. 
