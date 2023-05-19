@@ -3,15 +3,15 @@
 System Details:
     This model will be able to accurately detect trash in an underwater environment. This kind of model would be used in ocean trash collection robots that     autonomously pick up trash and remove it from the water. 
     
-    How to Install: blahblahblah placeholder
-    How to Use: placeholder
+    How to Install: Download necessary packages shown at the top of the 'thecode.py' file. 
+    How to Use: Go 
     
  Model Details:
     Data sources used for training: https://www.kaggle.com/datasets/sovitrath/underwater-trash-detection-icra
     Model performance analysis: placeholder
     
  Development overview:
-    
+    placeholder
 
 
 ##  Logs
@@ -32,3 +32,8 @@ System Details:
 
 05/05/23
 - Updated README
+
+05/06/23 - 05/19/23
+- Trained Model with VGG19 Transfer learning (planning on also trying a YOLO model)
+- Added appropiate performance visualization such as a loss function graph
+- Added examples of the model applied on validation data.
