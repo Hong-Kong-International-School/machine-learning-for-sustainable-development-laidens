@@ -1,14 +1,19 @@
-#Trash Detection Model
+#Trash Detection Model 
 
-System Details:
-    This model will be able to accurately detect trash in an underwater environment. This kind of model would be used in ocean trash collection robots that     autonomously pick up trash and remove it from the water. 
+A neural network model that will be able to accurately detect and label trash given a certain image or a live camera feed using bounding boxes! This would be used in trash collection robots that could autonomously pick up trash, if we were ever able to develop this kind of robot.
+
+Necessary Packages / Requirements
+    All ultralytics reqiurements (for running the YOLOv8 model) https://github.com/ultralytics/ultralytics/blob/main/requirements.txt
     
     How to Install: Download necessary packages shown at the top of the 'thecode.py' file. 
     How to Use: Go 
     
  Model Details:
-    Data sources used for training: https://www.kaggle.com/datasets/sovitrath/underwater-trash-detection-icra
-    Model performance analysis: placeholder
+    Data sources used for training: 
+        Data used for VGG19 Transfer learning: https://www.kaggle.com/datasets/sovitrath/underwater-trash-detection-icra
+        Data used for YOLOv8 model training:   https://universe.roboflow.com/mohamed-traore-2ekkp/taco-trash-annotations-in-context/dataset/16
+        Model performance analysis: 
+            VGG19 Transfer learning model performance: 
     
  Development overview:
     placeholder
