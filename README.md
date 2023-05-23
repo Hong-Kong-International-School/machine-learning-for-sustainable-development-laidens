@@ -1,4 +1,4 @@
-#Trash Detection Model 
+# Trash Detection Model 
 
 A neural network model that will be able to accurately detect and label trash given a certain image or a live camera feed using bounding boxes! This would be used in trash collection robots that could autonomously pick up trash, if we were ever able to develop this kind of robot.
 
