@@ -1,22 +1,33 @@
 # Trash Detection Model 
 
-A neural network model that will be able to accurately detect and label trash given a certain image or a live camera feed using bounding boxes! This would be used in trash collection robots that could autonomously pick up trash, if we were ever able to develop this kind of robot.
+A neural network model that will be able to accurately detect and label trash given a certain image or a live camera feed using bounding boxes! This could be used to address multiple SDG goals, which include but not limited to the following:
+
+SDG 11: Sustainable Cities and Communities - By detecting and removing labelled trash from public spaces, this technology can help create cleaner and more sustainable urban environments.
+
+SDG 12: Responsible Consumption and Production - The neural network model can help reduce waste and encourage responsible consumption by identifying trash and waste products that can be recycled or repurposed.
+
+SDG 13: Climate Action - By reducing the amount of waste that ends up in landfills, this technology can help reduce greenhouse gas emissions and mitigate the impacts of climate change.
+
+SDG 14: Life Below Water - By preventing trash and plastic waste from entering waterways, the technology can help protect marine ecosystems and preserve biodiversity.
+
+SDG 15: Life on Land - By removing litter and waste from natural environments, the model can help protect natural habitats and prevent the loss of biodiversity.
+
 
 Necessary Packages / Requirements
     All ultralytics reqiurements (for running the YOLOv8 model) https://github.com/ultralytics/ultralytics/blob/main/requirements.txt
     
-    How to Install: Download necessary packages shown at the top of the 'thecode.py' file. 
-    How to Use: Go 
     
  Model Details:
     Data sources used for training: 
         Data used for VGG19 Transfer learning: https://www.kaggle.com/datasets/sovitrath/underwater-trash-detection-icra
         Data used for YOLOv8 model training:   https://universe.roboflow.com/mohamed-traore-2ekkp/taco-trash-annotations-in-context/dataset/16
-        Model performance analysis: 
-            VGG19 Transfer learning model performance: 
+   
     
- Development overview:
-    placeholder
+How to Run:
+Download "thecode.py"
+After downloading the YOLO model, figure out what directory you have downloaded it to.
+Replace "DIRECTORY OF WHERE YOU DOWNLOADED MODEL" with the directory of where your model is. (for example Users/yourusername/Downloads/modelname)
+Run the code, it should use your webcam for the source.
 
 
 ##  Logs
