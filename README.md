@@ -23,6 +23,12 @@ Necessary Packages / Requirements
         Data used for YOLOv8 model training:   https://universe.roboflow.com/mohamed-traore-2ekkp/taco-trash-annotations-in-context/dataset/16
    
     
+DOWNLOAD THE MODEL HERE:
+
+https://drive.google.com/file/d/1RcG_nSd4TcYYaOV8TuIh_GCrnpnLg_VF/view?usp=sharing
+
+Currently only the YOLO model can be used for real time webcam detection.
+
 How to Run:
 Download "thecode.py"
 After downloading the YOLO model, figure out what directory you have downloaded it to.
@@ -53,3 +59,7 @@ Run the code, it should use your webcam for the source.
 - Trained Model with VGG19 Transfer learning (planning on also trying a YOLO model)
 - Added appropiate performance visualization such as a loss function graph
 - Added examples of the model applied on validation data.
+
+05/19/23-05/23/23
+- Trained YOLOv8 model with new dataset
+- Added live camera feed detection
