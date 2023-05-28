@@ -12,6 +12,8 @@ SDG 14: Life Below Water - By preventing trash and plastic waste from entering w
 
 SDG 15: Life on Land - By removing litter and waste from natural environments, the model can help protect natural habitats and prevent the loss of biodiversity.
 
+DEMO VIDEO: https://youtu.be/Ka9styd9CAI
+
 
 Necessary Packages / Requirements
     All ultralytics reqiurements (for running the YOLOv8 model) https://github.com/ultralytics/ultralytics/blob/main/requirements.txt
@@ -34,6 +36,15 @@ Download "thecode.py"
 After downloading the YOLO model, figure out what directory you have downloaded it to.
 Replace "DIRECTORY OF WHERE YOU DOWNLOADED MODEL" with the directory of where your model is. (for example Users/yourusername/Downloads/modelname)
 Run the code, it should use your webcam for the source.
+
+
+Future Work Ideas / Next Steps:
+
+Additional optional data preprocessing steps for murky water pictures and foggy pictures. (Maybe nightvision for images in the dark)
+Somehow fix detecting faces as 'trash'.
+Optimize code for better frames per second
+Audio after detection
+Mount on an actual robot
 
 
 ##  Logs
